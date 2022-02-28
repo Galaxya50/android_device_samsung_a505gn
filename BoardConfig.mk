@@ -17,11 +17,11 @@
 include device/samsung/a50-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/a505fn/BoardConfigVendor.mk
+include vendor/samsung/a505gn/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/a505fn
+DEVICE_PATH := device/samsung/a505gn
 
-TARGET_OTA_ASSERT_DEVICE := a505fn,a50,a50xx,a50dd
+TARGET_OTA_ASSERT_DEVICE := a505gn,a50,a50xtc
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
